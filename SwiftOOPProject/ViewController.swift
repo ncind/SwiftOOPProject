@@ -13,6 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var bmw = Vehicle()
+        
+        print(bmw.odometer)
+        bmw.odometer = 100
+        print(bmw.odometer)
+        bmw.odometer = 800
+        print(bmw.odometer)
+        print("object oriented programming is really cool")
+        
+  
+        
     }
 
     override func didReceiveMemoryWarning() {
